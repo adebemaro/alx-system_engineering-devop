@@ -1,4 +1,9 @@
 #!/bin/bash
+file --mime-type -m school.mgc *
+school.mgc:         application/octet-stream
+ls:                    application/octet-stream
+thisisaschoolfile: School
+thisisatextfile:       text/plain
 file -m school.mgc *
 school.mgc:         data
 ls:                    data
